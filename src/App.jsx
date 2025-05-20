@@ -80,7 +80,7 @@ function Layout() {
           <Container>
             <h2 className="fw-bold mb-4">Skills</h2>
             <p>FrontEnd: HTML, CSS, Javascript, Reactjs, Bootstrap</p>
-            <p>BackEnd: Node.js, Express.js</p>
+            <p>BackEnd: Node.js, Express.js C, C++</p>
             <p>Database: PostgreSQL, Firebase</p>
           </Container>
         </div>
