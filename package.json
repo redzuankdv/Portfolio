@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://redzuankdv.github.io/portfolio",
+  "homepage": "https://redzuankdv.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

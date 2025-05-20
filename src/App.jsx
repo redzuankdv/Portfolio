@@ -117,7 +117,7 @@ function Layout() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Layout />}></Route>
       </Routes>
