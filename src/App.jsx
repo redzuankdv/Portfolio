@@ -46,7 +46,7 @@ function Layout() {
                   onMouseLeave={() => setHovered(false)}
                 >
                   <Image
-                    src="Me.jpg"
+                    src="/redzuan-portfolio/Me.jpg"
                     alt="Redzuan"
                     fluid
                     style={{
