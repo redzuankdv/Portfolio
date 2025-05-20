@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { Col, Container, Image, Nav, Navbar, Row } from "react-bootstrap";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function Layout() {
   const [hovered, setHovered] = useState(false);
@@ -46,7 +46,7 @@ function Layout() {
                   onMouseLeave={() => setHovered(false)}
                 >
                   <Image
-                    src="/Me.jpg"
+                    src="Me.jpg"
                     alt="Redzuan"
                     fluid
                     style={{
@@ -117,10 +117,10 @@ function Layout() {
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}></Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
