@@ -117,7 +117,7 @@ function Layout() {
 
 export default function App() {
   return (
-    <HashRouter basename="/redzuan-portfolio/">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}></Route>
       </Routes>
