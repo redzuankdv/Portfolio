@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { Col, Container, Image, Nav, Navbar, Row } from "react-bootstrap";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 function Layout() {
   const [hovered, setHovered] = useState(false);
@@ -117,10 +117,10 @@ function Layout() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Portfolio/">
+    <HashRouter basename="/redzuan-portfolio/">
       <Routes>
         <Route path="/" element={<Layout />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
